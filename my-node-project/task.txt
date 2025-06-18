@@ -1,0 +1,18 @@
+REST API - JSON
+Get /user jtml document
+GET /api/users -list all the users JSON DATA done
+
+
+dynamic path parameters
+
+GET: api/users/:id so id is dynamic 
+
+GET  /api/users/1 -list user with id 1 ->done
+GET  /api/users/2 -list user with id 2 ->done
+
+
+POST  /api/users-create a new user
+
+PATCH  /api/users/1-edita user with id 1
+
+DELETE  /api/users/1 -delete user with id 1
